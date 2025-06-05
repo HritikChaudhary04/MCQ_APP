@@ -66,7 +66,7 @@ menu = st.sidebar.radio("Menu", ["Take Test", "Admin Panel"])
 # --------------------------- TEST MODE --------------------------
 if menu == "Take Test":
     username = st.text_input("Enter your name to begin:")
-    num_questions = st.selectbox("Select number of questions:", [5, 10, 20])
+    num_questions = st.selectbox("Select number of questions:", [5, 10, 20,35,50,70,100])
 
     if "started" not in st.session_state:
         st.session_state.started = False
