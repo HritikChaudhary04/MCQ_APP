@@ -9,7 +9,7 @@ from datetime import datetime
 # File paths
 QUESTIONS_FILE = "engineering_mcqs.json"
 HISTORY_FILE = "score_history.json"
-ADMIN_PASSWORD = "hritikadmin123"
+ADMIN_PASSWORD = "hritik123"
 
 # Load questions
 @st.cache_data
